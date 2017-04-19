@@ -1,0 +1,116 @@
+@CHARSET "UTF-8";
+.body_background{
+	background-image: url(../images/background.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.table1{
+	border:#808080;
+	border-spacing:0;
+	font-size: 100;
+	font: 200;
+	margin-left: 7%;
+	margin-top: 5%;
+}
+.div_loadcontain{
+	width: 300px;
+	height: 250px;
+    text-align:center;
+    margin:0 auto;
+    margin-top:15%;
+	border:2px solid;
+    border-radius:25px;
+    background-color:#eeeeee;
+}
+.div_information{
+	width: 300px;
+	height: 400px;
+    text-align:center;
+    margin-top:5%;
+    margin-left:10%;
+	border:2px solid;
+    border-radius:25px;
+    background-color:#eeeeee;
+}
+.div_registercontain{
+	width: 300px;
+	height: 370px;
+    text-align:center;
+    margin:0 auto;
+    margin-top:15%;
+	border:2px solid;
+    border-radius:25px;
+    background-color:#eeeeee;
+}
+.table_info{
+	text-align: center;
+	width: 40%;
+	font-size: x-large;
+	font-family: cursive;
+	background-color: #f7f7f7;
+}
+.table_info1{
+	text-align: center;
+	width: 40%;
+	font-size: x-large;
+	font-family: cursive;
+	background-color: #fcfcfc;
+}
+.form_load{
+	vertical-align: middle;
+	margin-top: 10%;
+}
+.input_load_username {
+	-web-kit-appearance: none;
+	-moz-appearance: none;
+	font-size: 1.4em;
+	height: 2em;
+	border-radius: 4px;
+	border: 1px solid #c8cccf;
+	color: #6a6f77;
+	outline:0;
+	margin-top: 10px;
+}
+.input_load_password {
+	-web-kit-appearance: none;
+	-moz-appearance: none;
+	font-size: 1.4em;
+	height: 2em;
+	width:246px;
+	border-radius: 4px;
+	border: 1px solid #c8cccf;
+	color: #6a6f77;
+	outline:0;
+	margin-top: 10px;
+}
+.buttom_load_submit {
+	background-color: black; /* Gray */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 8px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 250px;
+}
+.buttom_load_submit:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.a_load_text{
+	text-decoration: none;
+	text-shadow: gray;
+	color:green;
+}
+.a_load_text:hover { 
+    color:#3a3a3a; 
+    text-decoration:none; 
+} 
+.a_load_text:active{
+	text-decoration:underline; 
+}
